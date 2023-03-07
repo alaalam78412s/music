@@ -31,7 +31,7 @@ const prefix = "!"
 
 client.on("ready", () => {
  console.log(`${client.user.tag} is ready`)
- client.user.setActivity({ type: "PLAYING", name: `${prefix}help | DK Music` })
+ client.user.setActivity({ type: "PLAYING", name: `${prefix}help | DP Music` })
 }) 
 
 client.on("message", message =>{
