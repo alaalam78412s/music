@@ -25,7 +25,7 @@ require("ffmpeg-static");
 require("ytdl-core");
 
 //////////////////
-const prefix = "9"
+const prefix = "!"
 /////////////////
 
 
