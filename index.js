@@ -443,18 +443,6 @@ client.distube
 	});
 
 
-const { joinVoiceChannel } = require('@discordjs/voice');
-client.on('ready', async () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-  const targetGuild = client.guilds.cache.find(guild => guild.id === "1026893664208814120");
-  const targetChannel = targetGuild.channels.cache.find(channel => channel.id === "1094281286505467904");
-  const connection = joinVoiceChannel({
-    channelId: targetChannel.id,
-    guildId: targetGuild.id,
-    adapterCreator: targetGuild.voiceAdapterCreator,
-  });
-});
-
 
 client.login(process.env.token).catch((err) =>{
 console.warn("\033[31m Token Invalid")
