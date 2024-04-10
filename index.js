@@ -58,7 +58,7 @@ i18n.configure({
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
   client.user.setActivity(`𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭🎧 , -𝐡𝐞𝐥𝐩🎶`, { type: "PLAYING" });
-  let channel = client.channels.cache.find(r => r.id === "1094309879621099561");//ايدي الروم
+  let channel = client.channels.cache.find(r => r.id === "1114283626704683017");//ايدي الروم
   if(!channel)return console.log("can't find channel")
   channel.join();
 });
